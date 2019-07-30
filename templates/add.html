@@ -8,8 +8,12 @@
     <h1>Add a Student</h1>
     <form method="post">\
         <br>
+        <input type="text" name="student_name" placeholder="ur name">
+        <input type="text" name="student_year" placeholder="which year">
+
         <input type="submit" value="Submit">
     </form>
     <p><a href="{{url_for('home')}}">Home</a></p>
+    {{random}}
 </body>
 </html>
